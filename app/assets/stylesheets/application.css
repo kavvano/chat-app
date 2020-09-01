@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+ * {                       /* *セレクターは全ての要素に適用 */
+   box-sizing: border-box; /* paddingやmarginを要素のサイズに含める */
+ }
